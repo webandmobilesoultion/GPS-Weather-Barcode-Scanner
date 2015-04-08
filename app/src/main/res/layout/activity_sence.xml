@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raoul.theridge.SenceActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:id="@+id/linearLayout2">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/facebook_imageButton"
+                android:src="@drawable/facebook"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/twiter_imageButton"
+                android:layout_weight="1"
+                android:src="@drawable/twitter"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:layout_gravity="center_vertical" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/game_imageButton"
+                android:layout_weight="1"
+                android:src="@drawable/game"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:layout_gravity="center_vertical" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/emaile_imageButton"
+                android:layout_weight="1"
+                android:src="@drawable/email"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/location_imageButton"
+                android:layout_weight="1"
+                android:src="@drawable/location"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/site_imageButton"
+                android:layout_weight="1"
+                android:src="@drawable/site"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton7"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/link"
+        android:background="@null" />
+
+</RelativeLayout>

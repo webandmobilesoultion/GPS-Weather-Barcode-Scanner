@@ -1,0 +1,6 @@
+language: android
+jdk: oraclejdk7
+
+script:
+    - TERM=dumb ./gradlew build
+

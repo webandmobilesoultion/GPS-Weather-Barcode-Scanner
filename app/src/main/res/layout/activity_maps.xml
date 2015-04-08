@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.raoul.theridge.MapsActivity"
+android:background="@drawable/background"
+android:orientation="vertical">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map"
+        android:layout_gravity="center_horizontal"
+         />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/distance_textView"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+
+        </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/map">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/A_textView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="130dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/B_textView"
+            android:layout_above="@+id/A_textView"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="235dp"
+            android:textColor="#fff6f7ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/C_textView"
+            android:layout_above="@+id/B_textView"
+            android:layout_marginBottom="29dp"
+            android:layout_marginLeft="270dp"
+            android:textColor="#fff7f8ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/D_textView"
+            android:layout_above="@+id/C_textView"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="120dp"
+            android:textColor="#fdeef6ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/E_textView"
+            android:layout_above="@+id/D_textView"
+            android:layout_marginLeft="280dp"
+            android:textColor="#fff1f3ff"
+            android:layout_marginBottom="87dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/F_textView"
+            android:layout_above="@+id/E_textView"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="140dp"
+            android:textColor="#ffededf4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/G_textView"
+            android:layout_above="@+id/F_textView"
+            android:layout_marginBottom="105dp"
+            android:layout_marginLeft="200dp"
+            android:textColor="#fff2f6ff" />
+    </RelativeLayout>
+
+</RelativeLayout>
